@@ -1,2 +1,2 @@
 # AulaSenac
-Aula sobre Git
+Exercícios de revisão Python e SQL
