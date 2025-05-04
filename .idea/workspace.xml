@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9815cce-d9a7-44c9-af09-556f17021c1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
     "Python.12.executor": "Run",
     "Python.13.executor": "Run",
     "Python.14.executor": "Run",
+    "Python.15.executor": "Run",
     "Python.2.executor": "Run",
     "Python.3.executor": "Run",
     "Python.4.executor": "Run",
@@ -53,7 +53,7 @@
     "Python.9.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "exercicio__15",
+    "git-widget-placeholder": "exercicio__16",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -77,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745969295938</updated>
       <workItem from="1746315195519" duration="5142000" />
-      <workItem from="1746378817097" duration="4900000" />
+      <workItem from="1746378817097" duration="5598000" />
     </task>
     <servers />
   </component>
@@ -96,6 +96,7 @@
     <SUITE FILE_PATH="coverage/ProjetosPython$2.coverage" NAME="2 Coverage Results" MODIFIED="1746313614985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjetosPython$11.coverage" NAME="11 Coverage Results" MODIFIED="1746380184226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjetosPython$5.coverage" NAME="5 Coverage Results" MODIFIED="1746316113112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjetosPython$15.coverage" NAME="15 Coverage Results" MODIFIED="1746385294073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjetosPython$4.coverage" NAME="4 Coverage Results" MODIFIED="1746315451238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjetosPython$14.coverage" NAME="14 Coverage Results" MODIFIED="1746383251243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjetosPython$8.coverage" NAME="8 Coverage Results" MODIFIED="1746318366826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
