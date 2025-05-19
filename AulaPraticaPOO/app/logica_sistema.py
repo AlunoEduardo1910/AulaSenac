@@ -68,3 +68,35 @@ def deletar_aluno(matricula):
 
     return f"Aluno {aluno.nome} excluído com sucesso."
 
+def inserir_aluno_no_curso(matricula):
+    if not matricula:
+        return "Matrícula inválida."
+
+    aluno = ALUNOS.get(matricula)
+    if not aluno:
+        return "Aluno não encontrado."
+
+    if aluno.curso:
+        return f"O aluno já está matriculado no curso: {aluno.curso.nome}"
+
+    if not CURSOS:
+        return "Nenhum curso disponível para matrícula."
+
+    print("Cursos disponíveis:")
+    for nome in CURSOS:
+        print(f"- {nome}")
+
+    nome_curso = input("Digite o nome do curso para matrícula: ")
+
+    curso = CURSOS.get(nome_curso)
+    if not curso:
+        return "Curso não encontrado."
+
+    curso.alunos[aluno.matricula] = aluno
+    aluno.curso = curso
+
+    return f"Aluno {aluno.nome} matriculado com sucesso no curso {curso.nome}."
+
+
+
+

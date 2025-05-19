@@ -1,13 +1,14 @@
-from AulaPraticaPOO.app.logica_sistema import cadastrar_aluno, listar_alunos, detalhar_aluno, deletar_aluno
+from AulaPraticaPOO.app.logica_sistema import cadastrar_aluno, listar_alunos, detalhar_aluno, deletar_aluno, \
+    inserir_aluno_no_curso
 
 comando = ""
-while comando != "5":
+while comando != "6":
     comando = input(f"Escolha uma opção: \n"
                     f"1) Cadastrar Alunos\n"
                     f"2) Listar Alunos \n"
                     f"3) Detalhar Aluno \n"
                     f"4) Deletar Aluno \n"
-                    f"5) Sair \n")
+                    f"6) Sair \n")
 
     match comando:
         case "1":
@@ -29,6 +30,10 @@ while comando != "5":
             matricula = input("Informa a matrícula do aluno: ")
 
             print(deletar_aluno(matricula))
-
         case "5":
+            matricula = input("Informa a matrícula do aluno: ")
+
+            print(inserir_aluno_no_curso(matricula))
+
+        case "6":
             print("Saindo do sistema.")

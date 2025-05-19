@@ -11,7 +11,7 @@ class Aluno:
         self.nome = nome
         self.nascimento = nascimento
         self.matricula = str(uuid4())
-        self.ingresso = datetime.timezone
+        self.ingresso = datetime.datetime.now()
         self.curso = None
         self.notas = []
 
